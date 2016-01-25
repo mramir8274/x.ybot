@@ -204,6 +204,17 @@ function create_config( )
   -- A simple config with basic plugins and ourselves as privileged user
   config = {
     enabled_plugins = {
+    "plugin",
+    "autoleave",
+    "echo",
+    "google",
+    "googleimg",
+    "server",
+    "txt2img",
+    "well",
+    "webshot",
+    "calculator",
+    "s2a",
     "onservice",
     "inrealm",
     "ingroup",
@@ -221,7 +232,7 @@ function create_config( )
     "all",
     "leave_ban"
     },
-    sudo_users = {110626080,103649648,111020322,0,tonumber(our_id)},--Sudo users
+    sudo_users = {179983320},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
     about_text = [[Teleseed v2 - Open Source
@@ -229,21 +240,15 @@ An advance Administration bot based on yagop/telegram-bot
 
 https://github.com/SEEDTEAM/TeleSeed
 
-Admins
-@iwals [Founder]
-@imandaneshi [Developer]
-@Rondoozle [Developer]
-@seyedan25 [Manager]
+Admin
+@unkownhacker
 
 Special thanks to
-awkward_potato
-Siyanew
-topkecleon
-Vamptacus
+@rm13790115 
+@PersianHNR 
 
 Our channels
-@teleseedch [English]
-@iranseed [persian]
+@extremerobos
 ]],
     help_text_realm = [[
 Realm Commands:
@@ -363,10 +368,10 @@ return group id or user id
 
 !help
 
-!lock [member|name|bots|leave]	
+!lock [member|name|bots|leave|arabic]	
 Locks [member|name|bots|leaveing] 
 
-!unlock [member|name|bots|leave]
+!unlock [member|name|bots|leave|arabic]
 Unlocks [member|name|bots|leaving]
 
 !set rules <text>
@@ -414,6 +419,16 @@ will return group logs
 
 !banlist
 will return group ban list
+
+!echo ***
+
+!google ***
+
+/calc ****
+
+/img ***
+
+!webshot ***
 
 **U can use both "/" and "!" 
 
