@@ -234,6 +234,7 @@ function create_config( )
     "broadcast",
     "download_media",
     "invite",
+    "id",
     "all",
     "leave_ban"
     },
@@ -369,6 +370,8 @@ Set group name
 Group rules
 
 !id
+!ids gp
+
 return group id or user id
 
 !help
@@ -434,6 +437,14 @@ will return group ban list
 /img ***
 
 !webshot ***
+
+/map ***
+
+/dic ***
+
+/bot on : enable robot in group",
+
+/bot off : disable robot in group"
 
 **U can use both "/" and "!" 
 
