@@ -234,6 +234,11 @@ function create_config( )
     "broadcast",
     "download_media",
     "invite",
+    "xy",
+    "block",
+    "tagall",
+    "lockeng",
+    "feed",
     "id",
     "all",
     "leave_ban"
